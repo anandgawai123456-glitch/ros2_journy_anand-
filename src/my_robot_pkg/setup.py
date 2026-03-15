@@ -29,6 +29,7 @@ setup(
             'turtle_controller = my_robot_pkg.turtle_controller:main',
             'temprature_publisher = my_robot_pkg.temprature_publisher:main',
             'temperature_subscriber = my_robot_pkg.temperature_subscriber:main',
+            'temprature_subscriber = my_robot_pkg.temprature_subscriber:main',
          ],
 
       },

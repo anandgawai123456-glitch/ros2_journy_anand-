@@ -1,5 +1,0 @@
-  File "/home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/temperature_subscriber.py", line 3
-    from std_msgs>msg import string
-                 ^
-SyntaxError: invalid syntax
-

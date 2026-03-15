@@ -16,29 +16,21 @@ creating /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg
 copying my_robot_pkg/publisher_node.py -> /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg
 copying my_robot_pkg/turtle_controller.py -> /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg
 copying my_robot_pkg/__init__.py -> /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg
-copying my_robot_pkg/temperature_subscriber.py -> /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg
 copying my_robot_pkg/temprature_publisher.py -> /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg
-copying my_robot_pkg/subscriber_node.py -> /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg
+copying my_robot_pkg/temprature_subscriber.py -> /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg
 running install
 running install_lib
 creating /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
 copying /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg/publisher_node.py -> /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
 copying /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg/turtle_controller.py -> /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
 copying /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg/__init__.py -> /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
-copying /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg/temperature_subscriber.py -> /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
 copying /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg/temprature_publisher.py -> /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
-copying /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg/subscriber_node.py -> /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
+copying /home/anand/ros2_ws/build/my_robot_pkg/build/lib/my_robot_pkg/temprature_subscriber.py -> /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
 byte-compiling /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/publisher_node.py to publisher_node.cpython-310.pyc
 byte-compiling /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/turtle_controller.py to turtle_controller.cpython-310.pyc
 byte-compiling /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/__init__.py to __init__.cpython-310.pyc
-byte-compiling /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/temperature_subscriber.py to temperature_subscriber.cpython-310.pyc
-  File "/home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/temperature_subscriber.py", line 3
-    from std_msgs>msg import string
-                 ^
-SyntaxError: invalid syntax
-
 byte-compiling /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/temprature_publisher.py to temprature_publisher.cpython-310.pyc
-byte-compiling /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/subscriber_node.py to subscriber_node.cpython-310.pyc
+byte-compiling /home/anand/ros2_ws/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/temprature_subscriber.py to temprature_subscriber.cpython-310.pyc
 running install_data
 creating /home/anand/ros2_ws/install/my_robot_pkg/share/ament_index
 creating /home/anand/ros2_ws/install/my_robot_pkg/share/ament_index/resource_index
@@ -52,5 +44,6 @@ Installing publisher_node script to /home/anand/ros2_ws/install/my_robot_pkg/lib
 Installing subscriber_node script to /home/anand/ros2_ws/install/my_robot_pkg/lib/my_robot_pkg
 Installing temperature_subscriber script to /home/anand/ros2_ws/install/my_robot_pkg/lib/my_robot_pkg
 Installing temprature_publisher script to /home/anand/ros2_ws/install/my_robot_pkg/lib/my_robot_pkg
+Installing temprature_subscriber script to /home/anand/ros2_ws/install/my_robot_pkg/lib/my_robot_pkg
 Installing turtle_controller script to /home/anand/ros2_ws/install/my_robot_pkg/lib/my_robot_pkg
 writing list of installed files to '/home/anand/ros2_ws/build/my_robot_pkg/install.log'

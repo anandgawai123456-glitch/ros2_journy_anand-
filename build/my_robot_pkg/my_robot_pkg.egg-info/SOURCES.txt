@@ -10,9 +10,8 @@ setup.py
 ../../build/my_robot_pkg/my_robot_pkg.egg-info/zip-safe
 my_robot_pkg/__init__.py
 my_robot_pkg/publisher_node.py
-my_robot_pkg/subscriber_node.py
-my_robot_pkg/temperature_subscriber.py
 my_robot_pkg/temprature_publisher.py
+my_robot_pkg/temprature_subscriber.py
 my_robot_pkg/turtle_controller.py
 resource/my_robot_pkg
 test/test_copyright.py

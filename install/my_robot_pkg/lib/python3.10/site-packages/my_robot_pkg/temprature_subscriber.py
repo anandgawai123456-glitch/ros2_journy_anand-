@@ -1,7 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs>msg import string
-
+from std_msgs.msg import String
 
 class TemperatureSubscriber(Node):
 
@@ -16,11 +15,10 @@ class TemperatureSubscriber(Node):
         )
 
     def listener_callback(self, msg):
-        self.get_logger().info("Received: " + msg.data)
+        self.get_logger().info('Received: "%s"' % msg.data)
 
 
 def main(args=None):
-
     rclpy.init(args=args)
 
     node = TemperatureSubscriber()
