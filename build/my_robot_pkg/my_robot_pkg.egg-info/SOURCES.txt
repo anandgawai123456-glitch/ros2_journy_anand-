@@ -8,6 +8,7 @@ setup.py
 ../../build/my_robot_pkg/my_robot_pkg.egg-info/requires.txt
 ../../build/my_robot_pkg/my_robot_pkg.egg-info/top_level.txt
 ../../build/my_robot_pkg/my_robot_pkg.egg-info/zip-safe
+launch/my_robot_launch.py
 my_robot_pkg/__init__.py
 my_robot_pkg/publisher_node.py
 my_robot_pkg/temprature_publisher.py

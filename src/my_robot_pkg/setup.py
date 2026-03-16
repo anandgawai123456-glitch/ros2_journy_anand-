@@ -6,11 +6,14 @@ setup(
     name=package_name,
     version='0.0.0',
     packages=find_packages(exclude=['test']),
+
     data_files=[
         ('share/ament_index/resource_index/packages',
-            ['resource/' + package_name]),
-        ('share/' + package_name, ['package.xml']),
+              ['resource/my_robot_pkg']),
+        ('share/my_robot_pkg', ['package.xml']),
+        ('share/my_robot_pkg/launch', ['launch/my_robot_launch.py']),
     ],
+
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='anand',
