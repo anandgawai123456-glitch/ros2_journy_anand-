@@ -33,7 +33,8 @@ setup(
             'temprature_publisher = my_robot_pkg.temprature_publisher:main',
             'temperature_subscriber = my_robot_pkg.temperature_subscriber:main',
             'temprature_subscriber = my_robot_pkg.temprature_subscriber:main',
-         ],
+            'temperature_service = my_robot_pkg.temperature_service:main',  
+          ],
 
       },
 
