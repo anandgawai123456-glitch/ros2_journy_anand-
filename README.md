@@ -1,91 +1,64 @@
 
-# **ROS2 Learning Journey - Anand Gawai**
+# 🚀 ROS2 Learning Journey – Anand Gawai
 
-This repository contains my **ROS2 Humble simulation and beginner robotics projects**, including publisher and subscriber nodes, and experiments with Python nodes.
-
----
-
-## **📌 Project Overview**
-
-* Built ROS2 **Publisher and Subscriber nodes** in Python
-* Learned to debug **Python errors** inside ROS2 packages
-* Explored ROS2 concepts:
-
-  * Nodes
-  * Topics
-  * Parameters
-  * Callbacks
-* Set up GitHub version control to **track and share progress**
+This repository contains my daily progress while learning ROS2 and robotics development.
 
 ---
 
-## **📂 Project Structure**
+## 📅 Progress
 
-```text
-ros2_ws/
-├── src/
-│   └── my_robot_pkg/
-│       ├── my_robot_pkg/
-│       │   ├── temprature_publisher.py
-│       │   ├── temprature_subscriber.py
-│       │   └── other sample nodes...
-│       └── setup.py
-├── install/
-├── build/
-└── log/
+### ✅ Day 10 – GitHub Setup
+
+* Initialized Git repository
+* Uploaded ROS2 workspace
+
+### ✅ Day 11 – Publisher & Subscriber
+
+* Created ROS2 nodes
+* Implemented communication between nodes
+
+### ✅ Day 12 – Services
+
+* Created temperature service
+* Called service using CLI
+
+### ✅ Day 13 – Custom Messages
+
+* Created package: `my_robot_interfaces`
+* Created message: `RobotStatus.msg`
+
+```
+float32 temperature
+float32 battery
 ```
 
-* `temprature_publisher.py` → Publishes simulated temperature values
-* `temprature_subscriber.py` → Subscribes to the temperature topic and prints values
-* Other files are experimental ROS2 nodes (turtle controller, subscriber/publisher templates)
+* Fixed build issues in CMakeLists.txt and package.xml
+* Successfully built and used custom message
 
 ---
 
-## **🚀 How to Run**
+## 🛠️ Technologies Used
 
-1. Source your ROS2 workspace:
-
-```bash
-source ~/ros2_ws/install/setup.bash
-```
-
-2. Run the Publisher node:
-
-```bash
-ros2 run my_robot_pkg temprature_publisher
-```
-
-3. Run the Subscriber node (in a new terminal):
-
-```bash
-ros2 run my_robot_pkg temprature_subscriber
-```
-
-4. Check topics and nodes:
-
-```bash
-ros2 node list
-ros2 topic list
-ros2 topic echo /temperature
-```
+* ROS2 (Humble)
+* Python
+* Linux (Ubuntu)
+* Git & GitHub
 
 ---
 
-## **🛠 Skills Learned**
+## 🎯 Next Goals
 
-* ROS2 Humble environment setup
-* Python scripting for ROS2 nodes
-* Publisher-Subscriber communication
-* Git & GitHub version control
-* Debugging Python and ROS2 errors
+* Gazebo Simulation
+* Robot Control
+* Sensor Integration (ESP32 + Ultrasonic)
 
 ---
 
-## **💻 Author**
+## 📌 Author
 
-**Anand Gawai**
+Anand Gawai
+📧 [anandgawai123456@gmail.com](mailto:anandgawai123456@gmail.com)
+🔗 https://github.com/anandgawai123456-glitch
 
-* Electrical Engineer | Robotics Enthusiast
-* GitHub: [anandgawai123456-glitch](https://github.com/anandgawai123456-glitch)
 
 
