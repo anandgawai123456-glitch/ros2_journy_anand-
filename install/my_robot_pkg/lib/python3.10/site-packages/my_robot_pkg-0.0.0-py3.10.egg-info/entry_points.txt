@@ -1,5 +1,7 @@
 [console_scripts]
+go_to_goal = my_robot_pkg.turtle_go_to_goal:main
 publisher_node = my_robot_pkg.publisher_node:main
+robot_controller = my_robot_pkg.robot_controller:main
 subscriber_node = my_robot_pkg.subscriber_node:main
 temperature_service = my_robot_pkg.temperature_service:main
 temperature_subscriber = my_robot_pkg.temperature_subscriber:main

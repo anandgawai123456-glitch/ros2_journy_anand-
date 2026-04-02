@@ -12,6 +12,7 @@ setup(
               ['resource/my_robot_pkg']),
         ('share/my_robot_pkg', ['package.xml']),
         ('share/my_robot_pkg/launch', ['launch/my_robot_launch.py']),
+
     ],
 
     install_requires=['setuptools'],
@@ -33,10 +34,12 @@ setup(
             'temprature_publisher = my_robot_pkg.temprature_publisher:main',
             'temperature_subscriber = my_robot_pkg.temperature_subscriber:main',
             'temprature_subscriber = my_robot_pkg.temprature_subscriber:main',
-            'temperature_service = my_robot_pkg.temperature_service:main',  
-          ],
+            'temperature_service = my_robot_pkg.temperature_service:main',
+            'robot_controller = my_robot_pkg.robot_controller:main', 
+            'go_to_goal = my_robot_pkg.turtle_go_to_goal:main',
+       ],
 
-      },
+     },
 
    )
 
